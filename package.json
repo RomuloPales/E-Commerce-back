@@ -1,0 +1,45 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "backend ecommerce ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "buid": "tsc",
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomuloPales/E-Commerce-back.git"
+  },
+  "author": "Rômulo Silva Pales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomuloPales/E-Commerce-back/issues"
+  },
+  "homepage": "https://github.com/RomuloPales/E-Commerce-back#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/cors": "^2.8.15",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.20",
+    "@types/http-status": "^1.1.2",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/pg": "^8.10.7",
+    "http-status": "^1.7.3",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
